@@ -1,0 +1,31 @@
+[Libraries]
+[Libraries/*]
+[Libraries/**/*]
+
+# ========== UNITY ==========
+[Libraries]
+[Libraries/*]
+[Libraries/**/*]
+# Unity generated folders
+[Libraries]
+[Libraries/**/*]
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+MemoryCaptures/
+Recordings/
+Library/
+
+# Other
+*.csproj
+*.sln
+*.slnx
+*.user
+*.tmp
+*.bak
+*.log
+.vscode/
+Packages/com.unity.package-manager-ui/
