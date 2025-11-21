@@ -1,19 +1,17 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
-    public string gameSceneName = "Game"; // nom exact de ta scène de jeu
-
-    public void PlayGame()
+    public void ChangeScene(string _sceneName)
     {
-        // Charge la scène de jeu par son nom (recommandé avec Build Profiles)
-        SceneManager.LoadScene(gameSceneName);
+        SceneManager.LoadScene(_sceneName);
     }
-
+    
     public void QuitGame()
     {
         Application.Quit();
-        Debug.Log("Quitter le jeu");
     }
 }
